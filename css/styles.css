@@ -10,6 +10,15 @@ h1 {
   font-weight: medium;
 }
 
+h3 {
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
 .container-fluid {
   padding: 4% 10%;
 }
@@ -48,4 +57,24 @@ h1 {
   margin-left: 10%;
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Feature Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #3E6D9C;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #5F9DF7;
 }
